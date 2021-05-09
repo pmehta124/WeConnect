@@ -1,4 +1,5 @@
 document.getElementById('second page').style.display='none';
+document.getElementById('hideyourself').style.display='none';
 
 class Company {
   constructor(name, contact, bio, sector){
