@@ -110,7 +110,7 @@
                             <p class="m-0 p-0">What are your preferred methods of contact and list the handle(s)?</p>
                             <p id="addInfo"class="text-info text-center small m-0 p-0">Email, Phone Number, Instagram, SnapChat, etc.</p>
                         </span>
-                        <input class="col mx-4 mx-sm-0 form-control d-inline" required type="text" name="email">
+                        <textarea class="col mx-4 mx-sm-0 w-0 form-control d-inline" id="number"></textarea>
                     </label>
                    
                     <label class="row custom-form-row">
@@ -118,14 +118,14 @@
                             <p class="m-0 p-0">Write a small bio to introduce yourself to other company/startup matches</p>
                             <p id="addInfo" class="text-info small m-0 p-0">Suggested: 75-125 words</p>
                         </span>
-                        <textarea class="col mx-4 mx-sm-0 w-0 form-control d-inline" id="bioText" required name="bio"></textarea>
+                        <textarea class="col mx-4 mx-sm-0 w-0 form-control d-inline" id="bioText"></textarea>
                     </label>
 
                     <hr class="d-md-none d-block w-50 my-0">
 
                     <p class="h4 text-center mt-4 mb-1" id="labless">Basic Demographics</p>
                    
-                    <label class="row custom-form-row">
+                    <label id = 'hideyourself' class="row custom-form-row">
                         <span class="col-md col-12 mb-1 py-2 text-center">
                             <p class="m-0 p-0">Would you prefer to be matched with someone from the same location?</p>
                             <div class="form-check-inline">
@@ -443,14 +443,14 @@
                             <option value="Public Service">Public Service</option>
                             <option value="Technology">Technology</option>
                          </select>
-                    </label>
+                    </label>    
 
                     <label class="row custom-form-row">
                         <span class="col-md col-12 mb-1 py-2 text-center">
                             <p class="m-0 p-0">Write a small description of what you are looking for in other company/startup matches</p>
                             <p id="descriptions" class="text-info small m-0 p-0">Suggested: 75-125 words</p>
                         </span>
-                        <textarea class="col mx-4 mx-sm-0 w-0 form-control d-inline" id="bioText2" required name="bio"></textarea>
+                        <textarea class="col mx-4 mx-sm-0 w-0 form-control d-inline"></textarea>
                     </label>
                     <br>
                     <button class="btn btn-outline-success w-100 mt-3" onclick="hideAll()">Submit!</button>
